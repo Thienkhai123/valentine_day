@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Valentine Love Page - Nguyễn Hoàng Thiên Khải',
+  title: 'Valentine',
   description: 'Trang web tình yêu lãng mạn cho Valentine',
 };
 
