@@ -99,13 +99,6 @@ const ValentineMessage = ({
           transition={{ delay: 0.1 }}
           className='text-center mb-4 sm:mb-6'
         >
-          <motion.h2
-            animate={{ y: [0, -5, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            className='text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2 sm:mb-3 will-change-transform'
-          >
-            Thiên Khải yêu quý! 💕
-          </motion.h2>
           <motion.p
             animate={{ opacity: [0.8, 1, 0.8] }}
             transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}

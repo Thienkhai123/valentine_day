@@ -160,15 +160,6 @@ export default function Home() {
               </h1>
             </motion.div>
 
-            {/* Year with animation */}
-            <motion.p
-              animate={{ opacity: [0.6, 1, 0.6] }}
-              transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-              className='text-xl sm:text-2xl md:text-3xl text-white/80 font-light tracking-widest mb-6 sm:mb-8'
-            >
-              2025
-            </motion.p>
-
             {/* Subtitle */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -177,10 +168,6 @@ export default function Home() {
               className='text-sm sm:text-base md:text-lg lg:text-xl text-white/70 mb-8 sm:mb-10 leading-relaxed max-w-md'
             >
               Dành cho những trái tim trẻ đang yêu 💕
-              <br />
-              <span className='text-pink-300 font-semibold text-base sm:text-lg md:text-xl'>
-                Nguyễn Hoàng Thiên Khải
-              </span>
             </motion.p>
 
             {/* Button with enhanced effects */}
@@ -255,20 +242,6 @@ export default function Home() {
             className='flex flex-col items-center justify-center relative mt-8 lg:mt-0'
           >
             {/* Animated character/figure */}
-            <motion.div
-              animate={{
-                y: [0, -30, 0],
-                rotate: [0, 5, -5, 0],
-              }}
-              transition={{
-                duration: 3.5,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              }}
-              className='text-6xl sm:text-7xl md:text-8xl lg:text-9xl mb-6 sm:mb-8 drop-shadow-2xl will-change-transform'
-            >
-              💑
-            </motion.div>
 
             {/* Message component */}
             <ValentineMessage
